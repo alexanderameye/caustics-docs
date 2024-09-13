@@ -1,70 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>🖍️ Linework</title>
-      <link>https://linework.ameye.dev</link>
-      <description>Last 10 notes on 🖍️ Linework</description>
+      <title>🔅 Caustics</title>
+      <link>https://caustics.ameye.dev</link>
+      <description>Last 10 notes on 🔅 Caustics</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Shader Properties</title>
+    <link>https://caustics.ameye.dev/how-to-guides/shader-properties</link>
+    <guid>https://caustics.ameye.dev/how-to-guides/shader-properties</guid>
+    <description>How to use this asset. This asset comes with a nice and clean material editor to edit the properties of the caustics. This editor will simply show up in the material section in the inspector if you have the caustics volume selected.</description>
+    <pubDate>Fri, 13 Sep 2024 11:10:44 GMT</pubDate>
+  </item><item>
+    <title>Caustics Volume</title>
+    <link>https://caustics.ameye.dev/how-to-guides/caustics-volume</link>
+    <guid>https://caustics.ameye.dev/how-to-guides/caustics-volume</guid>
+    <description>How to place caustics. Caustics may be positioned using caustics volumes. These volumes are cubes that may be translated, rotated and scaled. Caustics will show up wherever the volume intersects with existing scene geometry.</description>
+    <pubDate>Fri, 13 Sep 2024 11:09:54 GMT</pubDate>
+  </item><item>
     <title>Changelog</title>
-    <link>https://linework.ameye.dev/support/changelog</link>
-    <guid>https://linework.ameye.dev/support/changelog</guid>
+    <link>https://caustics.ameye.dev/support/changelog</link>
+    <guid>https://caustics.ameye.dev/support/changelog</guid>
     <description>All notable changes to this package will be documented in this file. The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.</description>
     <pubDate>Sun, 25 Aug 2024 10:46:25 GMT</pubDate>
   </item><item>
-    <title>Outline Bleeding</title>
-    <link>https://linework.ameye.dev/concepts/outline-bleeding</link>
-    <guid>https://linework.ameye.dev/concepts/outline-bleeding</guid>
-    <description>Issue For the Soft Outline and Wide Outline outline effects, the outlines are rendered by having a silhouette that is dilated in screen-space. Because of the screen-space nature of this effect, the outline will not always completely respect the configured Occlusion State.</description>
-    <pubDate>Wed, 21 Aug 2024 10:33:33 GMT</pubDate>
-  </item><item>
-    <title>Occlusion States</title>
-    <link>https://linework.ameye.dev/concepts/occlusion-states</link>
-    <guid>https://linework.ameye.dev/concepts/occlusion-states</guid>
-    <description>The Render setting for outlines and fills usually has 3 options. Render Always Always render the outline/fill, regardless of its occlusion state in the scene.</description>
-    <pubDate>Thu, 15 Aug 2024 09:03:36 GMT</pubDate>
-  </item><item>
-    <title>Rendering Layer Masks</title>
-    <link>https://linework.ameye.dev/concepts/rendering-layer-masks</link>
-    <guid>https://linework.ameye.dev/concepts/rendering-layer-masks</guid>
-    <description>All outline and fill effects make use of the Rendering Layer Mask system in Unity to control which objects should receive an outline. Using this system you gain a lot of flexibility to define which objects receive which outlines.</description>
-    <pubDate>Wed, 14 Aug 2024 10:54:32 GMT</pubDate>
-  </item><item>
-    <title>Roadmap</title>
-    <link>https://linework.ameye.dev/support/roadmap</link>
-    <guid>https://linework.ameye.dev/support/roadmap</guid>
-    <description>An overview of the features I’m currently working on. If you have any feature requests, feel free to reach out here Contact. I’m always open to suggestions.</description>
-    <pubDate>Tue, 13 Aug 2024 14:12:02 GMT</pubDate>
-  </item><item>
-    <title>Performance</title>
-    <link>https://linework.ameye.dev/support/performance</link>
-    <guid>https://linework.ameye.dev/support/performance</guid>
-    <description>Some best-practices and guidelines when it comes to performance. Tip! Use the Profiler and Frame Debugger The Profiler and Frame Debugger are invaluable tools to get an insight in the rendering process of your project.</description>
-    <pubDate>Tue, 13 Aug 2024 14:12:02 GMT</pubDate>
-  </item><item>
     <title>Contact</title>
-    <link>https://linework.ameye.dev/support/contact</link>
-    <guid>https://linework.ameye.dev/support/contact</guid>
-    <description>How to get in touch. Hi! I am Alexander, the developer of Linework. You can reach me in the following ways: Discord: discord.com/invite/cFfQGzQdPn Twitter: @alexanderameye Email: alexanderameye@gmail.com Website: ameye.dev.</description>
+    <link>https://caustics.ameye.dev/support/contact</link>
+    <guid>https://caustics.ameye.dev/support/contact</guid>
+    <description>How to get in touch. Hi! I am Alexander, the developer of Water Caustics for URP. You can reach me in the following ways: Discord: discord.com/invite/cFfQGzQdPn Twitter: @alexanderameye Email: alexanderameye@gmail.com Website: ameye.dev.</description>
     <pubDate>Tue, 13 Aug 2024 14:12:02 GMT</pubDate>
   </item><item>
     <title>Compatibility</title>
-    <link>https://linework.ameye.dev/support/compatibility</link>
-    <guid>https://linework.ameye.dev/support/compatibility</guid>
+    <link>https://caustics.ameye.dev/support/compatibility</link>
+    <guid>https://caustics.ameye.dev/support/compatibility</guid>
     <description>Check if Linework will work in your project. Compatibility Linework is compatible with Unity 6 and the Universal Render Pipeline. Other combinations are not supported.</description>
     <pubDate>Tue, 13 Aug 2024 14:12:02 GMT</pubDate>
   </item><item>
-    <title>Wide Outline</title>
-    <link>https://linework.ameye.dev/outlines/wide-outline</link>
-    <guid>https://linework.ameye.dev/outlines/wide-outline</guid>
-    <description>Wide Outline renders an outline by generating a signed distance field (SDF) for each object and then sampling it. This creates consistent outlines that smoothly follows the shape of an object.</description>
+    <title>About Caustics</title>
+    <link>https://caustics.ameye.dev/about-caustics</link>
+    <guid>https://caustics.ameye.dev/about-caustics</guid>
+    <description>Thanks for your interest in Water Caustics for URP! You have already downloaded Water Caustics for URP and want to get started? Read the Getting Started section ...</description>
     <pubDate>Tue, 13 Aug 2024 14:12:02 GMT</pubDate>
   </item><item>
-    <title>Surface Fill</title>
-    <link>https://linework.ameye.dev/outlines/surface-fill</link>
-    <guid>https://linework.ameye.dev/outlines/surface-fill</guid>
-    <description>Surface Fill renders fills by rendering an object with a fill material. Configuration The Surface Fill Settings object contains the settings related to this fill effect.</description>
+    <title>About Linework</title>
+    <link>https://caustics.ameye.dev/</link>
+    <guid>https://caustics.ameye.dev/</guid>
+    <description>Thanks for your interest in Linework! If you have already installed Linework and you want to get started? Read the Getting Started section. Linework for Unity - A Practical Toolkit for Rendering Outlines With Linework you can render high-quality outlines in Unity.</description>
     <pubDate>Tue, 13 Aug 2024 14:12:02 GMT</pubDate>
+  </item><item>
+    <title>Getting Started</title>
+    <link>https://caustics.ameye.dev/getting-started</link>
+    <guid>https://caustics.ameye.dev/getting-started</guid>
+    <description>How to get started using Water Caustics for URP. Before using Water Caustics for URP, review the following important notes. License Agreement The source code included with this asset can be freely modified to suit your needs.</description>
+    <pubDate>Tue, 13 Aug 2024 14:12:02 GMT</pubDate>
+  </item><item>
+    <title>Troubleshooting and Known Limitations</title>
+    <link>https://caustics.ameye.dev/support/troubleshooting-and-known-limitations</link>
+    <guid>https://caustics.ameye.dev/support/troubleshooting-and-known-limitations</guid>
+    <description>Some frequently encountered issues and how to resolve them. Can’t find a solution to your issue here? Contact me. Known Limitations (fixes in progress) Soft/Wide Outline + MSAA Having Anti Aliasing (MSAA) enabled in the Universal Render Pipeline Asset will result in an error and the outlines will not render.</description>
+    <pubDate>Wed, 07 Aug 2024 08:17:30 GMT</pubDate>
   </item>
     </channel>
   </rss>
